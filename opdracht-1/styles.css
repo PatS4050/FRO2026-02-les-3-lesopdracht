@@ -1,0 +1,123 @@
+/*Navigatiebalk 1a*/
+.navbar-one ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-one li {
+    list-style: none;
+    font-size: small;
+}
+
+/*Navigatiebalk 2*/
+.navbar-two ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-two li {
+    list-style: none;
+    font-size: small;
+}
+
+/*Navigatiebalk 3*/
+.navbar-three ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-three div {
+    align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    font-size: small;
+}
+
+.navbar-three li {
+    list-style: none;
+    font-size: small;
+}
+
+/*Navigatiebalk 4*/
+.navbar-four li {
+    list-style: none;
+}
+
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    font-size: small;
+    justify-content: left;
+}
+
+.navbar-four ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-four div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+}
+
+.list-nav4 {
+    flex-grow: 1;
+}
+
+.list-nav4 li {
+    list-style: none;
+    font-size: small;
+}
+
+/*Navigatiebalk 5*/
+.navbar-five li {
+    list-style: none;
+}
+
+.navbar-five {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    font-size: small;
+    justify-content: center;
+}
+
+.navbar-five ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-five div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+}
+
+.list-nav5 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-nav4 li {
+    list-style: none;
+    font-size: small;
+}

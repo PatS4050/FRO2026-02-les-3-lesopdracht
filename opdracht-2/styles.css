@@ -5,9 +5,9 @@ Table of Contents:
     3. Areas
         3.1 Base Section
         3.2 Navigation menu
-        3.3 Header
-        3.4 Faq
-        3.5 Footer
+        3.3 Base content
+        3.4 content main
+        3.5
 ////////////////////////////////////////////////////////////////////////*/
 
 /*kleuren (grijs #899CA0 en donkergroen #1C2B32)*/
@@ -107,8 +107,14 @@ header {
 
 }
 main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: start;
+    flex-wrap: wrap;
     overflow: auto;
+    gap: 30px;
+    padding: 36px;
 }
 footer {
     width: 100%;
@@ -120,4 +126,29 @@ footer {
     border: 1px dashed cornflowerblue;
     background: black;
     color: white;
+}
+
+/*////////////////////////
+    3.4 content main
+////////////////////////*/
+
+article {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 240px;
+    box-shadow: grey;
+    position: relative;
+    gap: 36px;
+}
+
+.img-card {
+    width: 18px;
+    position: absolute;
+    bottom: 96px;
+    right: 12px;
+}
+article button {
+    background: #252525;
+    color: #e7e7e7
 }

@@ -3,9 +3,9 @@ Table of Contents:
     1. Global Styles
     2. Typografie
     3. Areas
-        3.1 Header
-        3.2 Testimonial
-        3.3 Support
+        3.1 Base Section
+        3.2 Navigation menu
+        3.3 Header
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
@@ -28,7 +28,56 @@ ol, ul {
 /*////////////////////////
     2. Typography
 ////////////////////////*/
+H1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+/*////////////////////////
+    3.1 Base section
+////////////////////////*/
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 250px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.basecamp {
+    flex-shrink: 36;
+    flex-grow: 36;
+}
+header  {
+    border: 1px dashed cornflowerblue;
+    overflow: auto;
+}
+
+footer {
+    border: 1px dashed cornflowerblue;
+}
 
 /*////////////////////////
-    3. Areas
+    3.2 Navigation menu
 ////////////////////////*/
+.navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: start;
+}
+li .nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}
+img li {
+    width: 42px;
+}

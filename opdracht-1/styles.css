@@ -57,7 +57,7 @@
     align-items: center;
     gap: 13px;
     font-size: small;
-    justify-content: left;
+    justify-content: flex-start;
 }
 
 .navbar-four ul {
